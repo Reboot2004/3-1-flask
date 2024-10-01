@@ -7,5 +7,5 @@ tensorboard-data-server==0.7.2
 tensorboard-plugin-3d==1.0.3
 tensorflow==2.13.1
 tensorflow-estimator==2.13.0
-tensorflow-intel==2.13.1
+tensorflow-intel==2.16.1
 tensorflow-io-gcs-filesystem==0.31.0
