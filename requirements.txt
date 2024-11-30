@@ -8,3 +8,13 @@ tensorboard-plugin-3d==1.0.3
 tensorflow==2.16.1
 gunicorn==23.0.0
 pillow==10.2.0
+pytorch==
+tqdm==4.66.2
+oauthlib==3.2.2
+onnx==1.17.0
+onnxruntime==1.20.1
+torch==2.3.1
+torchaudio==2.3.1
+torchinfo==1.8.0
+torchsummary==1.5.1
+torchvision==0.18.1
