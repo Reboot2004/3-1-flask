@@ -3,8 +3,8 @@ import onnxruntime
 import numpy as np
 from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
-from keras.models import load_model
-from keras.preprocessing import image
+#from keras.models import load_model
+#from keras.preprocessing import image
 from PIL import Image
 from io import BytesIO
 import gc  # Import garbage collector for memory management
@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app)  # Allow cross-origin requests
 
 # Load the VGG16 model from .h5 file
-model = load_model('crop_prediction_VGG16#3.h5')
+#model = load_model('crop_prediction_VGG16#3.h5')
 
 # Load the ONNX model for SAR image colorization
 onnx_model_path = "sar2rgb.onnx"
